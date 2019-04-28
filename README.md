@@ -185,7 +185,6 @@ rbenv install 2.5.0
 rbenv global 2.5.0
 ```
 
-
 ### <img src="./Images/img-bundler.png" width="30" height="30"> [Bundler](https://bundler.io/)
 
 Bundler provides a consistent environment for Ruby projects by tracking and installing the exact gems and versions that are needed.
@@ -208,4 +207,34 @@ bundle install
 
 ```
 bundle exec [--keep-file-descriptors] command
+```
+
+### 📦 [swiftenv](https://swiftenv.fuller.li/en/latest/)
+
+- Install:
+
+```
+brew install kylef/formulae/swiftenv
+
+echo 'if which swiftenv > /dev/null; then eval "$(swiftenv init -)"; fi' >> ~/.bashrc
+
+echo 'if which swiftenv > /dev/null; then eval "$(swiftenv init -)"; fi' >> ~/.zshrc
+```
+
+- Usage:
+
+```
+swiftenv versions
+
+swiftenv install --list
+
+swiftenv install 3.0
+
+swiftenv global
+
+swiftenv global 3.0
+
+swiftenv version
+
+swiftenv local 3.0
 ```
