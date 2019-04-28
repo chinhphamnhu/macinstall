@@ -1,4 +1,7 @@
 # Mac Install
+
+_Written by: **Nguyen Minh Tam**_
+
 Configures, applications, plug-ins for my personal mac.
 
 ## Applications
