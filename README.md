@@ -241,3 +241,7 @@ swiftenv version
 
 swiftenv local 3.0
 ```
+
+## Fonts
+
+In folder `./Fonts`.
